@@ -10,7 +10,6 @@ class Solution:
         carry =0
         temp=None
         while l1 is not None or l2 is not None:
-            
             sum_l1=carry
             if l1 is not None:
                 sum_l1+=l1.val
